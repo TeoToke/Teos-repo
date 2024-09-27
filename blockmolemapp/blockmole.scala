@@ -2,6 +2,7 @@
 package blockmole
 
 import java.awt.Color as JColor
+import scala.compiletime.ops.double
 
 object Color:
   val black  = new JColor(0,0,0)
@@ -29,6 +30,7 @@ object BlockWindow:
     for y <- leftTop._2 to leftTop._2 + size._2 do
       for x <- leftTop._1 to leftTop._1 + size._1  do
         block(x, y)(color)
+        Thread.sleep(5)
 
 
   val maxWaitMillis = 10
@@ -37,7 +39,6 @@ object BlockWindow:
     window.awaitEvent(maxWaitMillis)
     while window.lastEventType != PixelWindow.Event.KeyPressed do
       window.awaitEvent(maxWaitMillis)
-    println(s"KeyPressed: ${window.lastKey}")
     window.lastKey
 
   val window = new PixelWindow(windowSize._1 * blockSize, windowSize._2 * blockSize, "Blocky Molez")
@@ -64,28 +65,50 @@ object BlockWindow:
 
 
 object Mole:
+  var x = 15
+  var y = 38
+  var quit = false
+  var onSurface = false
+
   def dig(): Unit = 
-    println("Time to dig baby!")
-    var x = BlockWindow.windowSize._1 / 2
-    var y = BlockWindow.windowSize._2 / 2
-    var quit = false
-    while !quit do
+    while !quit && !onSurface do
       BlockWindow.block(x, y)(Color.mole)
       val key = BlockWindow.waitForKey()
-      if      key == "w" then {BlockWindow.block(x,y)(Color.tunnel); y = y -1}
-      else if key == "a" then {BlockWindow.block(x,y)(Color.tunnel); x = x -1}
-      else if key == "s" then {BlockWindow.block(x,y)(Color.tunnel); y = y +1}
-      else if key == "d" then {BlockWindow.block(x,y)(Color.tunnel); x = x +1}
+      if      key == "w" then if y == 24 then 
+        {println("Going up!"); BlockWindow.block(x,y)(Color.tunnel); y = y -1; BlockWindow.block(x, y)(Color.mole); onSurface=true; surface()} 
+        else {BlockWindow.block(x,y)(Color.tunnel); y = y -1}
+      else if key == "a" then if x == 0  then  println("The mole has hit rock! It cannot dig further")   else {BlockWindow.block(x,y)(Color.tunnel); x = x -1}
+      else if key == "s" then if y == 49 then  println("The mole has hit rock! It cannot dig further")   else {BlockWindow.block(x,y)(Color.tunnel); y = y +1}
+      else if key == "d" then if x == 29 then  println("The mole has hit rock! It cannot dig further")   else {BlockWindow.block(x,y)(Color.tunnel); x = x +1}
       else if key == "q" then run
+
+      
+  def surface(): Unit =
+    while onSurface do
+      BlockWindow.block(x,y)(Color.mole)
+      val key = BlockWindow.waitForKey()
+      if      key == "w" then if y == 20 then  println("The mole cannot fly, sadly")        else {BlockWindow.block(x,y)(Color.grass); y = y -1}
+      else if key == "a" then if x == 0  then  println("The mole would rather stay here")   else {BlockWindow.block(x,y)(Color.grass); x = x -1}
+      else if key == "s" then if y == 23 then
+        {println("Going Down!"); BlockWindow.block(x,y)(Color.grass); y = y +1; BlockWindow.block(x, y)(Color.mole); onSurface=false; dig()}   
+        else {BlockWindow.block(x,y)(Color.grass); y = y +1}
+      else if key == "d" then if x == 29 then  println("The mole would rather stay here")   else {BlockWindow.block(x,y)(Color.grass); x = x +1}
+      else if key == "q" then run
+    
 
 object Main:
   def drawWorld(): Unit = 
     println("Drawing World...")
-    Thread.sleep(500)
+    Mole.x = 15
+    Mole.y = 38
+    Mole.onSurface = false
+    for i <- 0 to 20 do println()
     BlockWindow.window
-    BlockWindow.rectangle(0,0)(30,4)(Color.grass)
-    BlockWindow.rectangle(0,4)(30,46)(Color.soil)
+    BlockWindow.rectangle(0,0)(30, 20)(Color.sky)
+    BlockWindow.rectangle(0,20)(30,4)(Color.grass)
+    BlockWindow.rectangle(0,24)(30,26)(Color.soil)
 
 @main def run =
   Main.drawWorld()
+  println("Time to dig baby!")
   Mole.dig()
