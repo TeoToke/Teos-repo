@@ -1,0 +1,377 @@
+2024.10.03 13:24:19 INFO  Started: Metals version 1.3.5 in folders 'C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5' for client Visual Studio Code 1.93.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@4232e2b3]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@4cbb5a43]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@4232e2b3]
+2024.10.03 13:24:20 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.10.03 13:24:21 INFO  no build target found for C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\KeyControl.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.03 13:24:22 INFO  Running List(C:\Users\teo\AppData\Local\Coursier\data\bin\scala-cli.BAT, setup-ide, C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5)
+2024.10.03 13:24:23 INFO  Attempting to connect to the build server...
+2024.10.03 13:24:23 INFO  Running BSP server List(C:\Users\teo\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\.scala-build\ide-envs.json, C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5)
+2024.10.03 13:24:23 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\.metals\bsp.trace.json or C:\Users\teo\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.03 13:24:25 INFO  time: Connected to build server in 1.86s
+2024.10.03 13:24:25 INFO  Connected to Build server: scala-cli v1.5.0
+2024.10.03 13:24:25 INFO  time: Imported build in 0.13s
+2024.10.03 13:24:25 INFO  running doctor check
+2024.10.03 13:24:25 INFO  java targets: labb5_0af943064a-test, labb5_0af943064a
+2024.10.03 13:24:25 INFO  compiling labb5_0af943064a (2 scala sources)
+2024.10.03 13:24:28 INFO  time: compiled labb5_0af943064a in 2.83s
+2024.10.03 13:24:29 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.10.03 13:24:32 INFO  time: indexed workspace in 6.95s
+2024.10.03 13:27:52 INFO  no build target found for C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\Mole.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.03 13:27:52 INFO  no build target found for C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\Mole.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.03 13:27:52 WARN  Could not find semantic tokens for: file:///C:/Users/teo/Documents/scalafilerwin/Teos-repo/labb5/Mole.scala
+2024.10.03 13:27:52 INFO  running doctor check
+2024.10.03 13:27:52 INFO  java targets: labb5_0af943064a-test, labb5_0af943064a
+2024.10.03 13:27:52 INFO  compiling labb5_0af943064a (1 scala source)
+2024.10.03 13:27:52 INFO  time: compiled labb5_0af943064a in 0.46s
+2024.10.03 13:27:55 INFO  time: indexed workspace in 2.93s
+2024.10.03 13:27:56 WARN  Could not find semantic tokens for: file:///C:/Users/teo/Documents/scalafilerwin/Teos-repo/labb5/Mole.scala
+2024.10.03 13:28:00 WARN  Could not find semantic tokens for: file:///C:/Users/teo/Documents/scalafilerwin/Teos-repo/labb5/Mole.scala
+2024.10.03 13:28:00 WARN  Could not find semantic tokens for: file:///C:/Users/teo/Documents/scalafilerwin/Teos-repo/labb5/Mole.scala
+2024.10.03 13:28:00 WARN  Could not find semantic tokens for: file:///C:/Users/teo/Documents/scalafilerwin/Teos-repo/labb5/Mole.scala
+2024.10.03 13:28:01 WARN  Could not find semantic tokens for: file:///C:/Users/teo/Documents/scalafilerwin/Teos-repo/labb5/Mole.scala
+Oct 03, 2024 1:28:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 219
+Oct 03, 2024 1:28:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 243
+Oct 03, 2024 1:29:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 515
+Oct 03, 2024 1:29:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 617
+Oct 03, 2024 1:31:05 PM scala.meta.internal.parsing.TokenEditDistance$Diff $anonfun$toRevised$8
+WARNING: stale range: Some(Colon [207..208) <-> Colon [207..208)) None
+Oct 03, 2024 1:31:06 PM scala.meta.internal.parsing.TokenEditDistance$Diff $anonfun$toRevised$8
+WARNING: stale range: Some(Colon [207..208) <-> Colon [207..208)) None
+Oct 03, 2024 1:32:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1197
+Oct 03, 2024 1:38:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2118
+2024.10.03 13:39:14 INFO  compiling labb5_0af943064a (1 scala source)
+2024.10.03 13:39:15 INFO  time: compiled labb5_0af943064a in 1.4s
+Oct 03, 2024 1:41:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2378
+2024.10.03 13:42:04 INFO  compiling labb5_0af943064a (1 scala source)
+2024.10.03 13:42:04 INFO  time: compiled labb5_0af943064a in 0.72s
+2024.10.03 13:42:26 INFO  no build target found for C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\pos.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.03 13:42:26 INFO  no build target found for C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\pos.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.03 13:42:26 INFO  Cancelling compilation on scala-cli server
+2024.10.03 13:42:26 INFO  compiling labb5_0af943064a (3 scala sources)
+2024.10.03 13:42:27 INFO  time: compiled labb5_0af943064a in 1.03s
+2024.10.03 13:42:27 INFO  time: Imported build in 1.26s
+2024.10.03 13:42:27 INFO  compiling labb5_0af943064a (3 scala sources)
+2024.10.03 13:42:27 INFO  running doctor check
+2024.10.03 13:42:27 INFO  java targets: labb5_0af943064a-test, labb5_0af943064a
+2024.10.03 13:42:27 INFO  time: compiled labb5_0af943064a in 0.73s
+2024.10.03 13:42:27 INFO  compiling labb5_0af943064a (3 scala sources)
+2024.10.03 13:42:29 INFO  time: compiled labb5_0af943064a in 0.66s
+2024.10.03 13:42:30 INFO  time: indexed workspace in 3.04s
+2024.10.03 13:42:31 INFO  compiling labb5_0af943064a (3 scala sources)
+2024.10.03 13:42:31 INFO  time: compiled labb5_0af943064a in 0.49s
+2024.10.03 13:42:38 INFO  Cancelling compilation on scala-cli server
+2024.10.03 13:42:38 INFO  compiling labb5_0af943064a (3 scala sources)
+2024.10.03 13:42:38 INFO  time: compiled labb5_0af943064a in 0.4s
+2024.10.03 13:42:39 INFO  time: Imported build in 0.52s
+2024.10.03 13:42:39 INFO  running doctor check
+2024.10.03 13:42:39 INFO  java targets: labb5_0af943064a-test, labb5_0af943064a
+2024.10.03 13:42:38 INFO  compiling labb5_0af943064a (3 scala sources)
+2024.10.03 13:42:38 INFO  time: compiled labb5_0af943064a in 0.42s
+2024.10.03 13:42:39 INFO  compiling labb5_0af943064a (3 scala sources)
+2024.10.03 13:42:39 INFO  time: compiled labb5_0af943064a in 0.43s
+2024.10.03 13:42:39 INFO  compiling labb5_0af943064a (3 scala sources)
+2024.10.03 13:42:40 INFO  time: compiled labb5_0af943064a in 0.44s
+2024.10.03 13:42:41 INFO  time: indexed workspace in 2.39s
+2024.10.03 13:42:41 INFO  compiling labb5_0af943064a (3 scala sources)
+2024.10.03 13:42:41 INFO  time: compiled labb5_0af943064a in 0.42s
+Oct 03, 2024 1:43:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2540
+2024.10.03 13:44:02 INFO  compiling labb5_0af943064a (3 scala sources)
+2024.10.03 13:44:02 INFO  time: compiled labb5_0af943064a in 0.49s
+2024.10.03 13:44:33 INFO  compiling labb5_0af943064a (3 scala sources)
+2024.10.03 13:44:33 INFO  time: compiled labb5_0af943064a in 0.33s
+Oct 03, 2024 1:46:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2735
+2024.10.03 13:46:51 INFO  compiling labb5_0af943064a (3 scala sources)
+2024.10.03 13:46:51 INFO  time: compiled labb5_0af943064a in 0.18s
+2024.10.03 13:46:59 INFO  compiling labb5_0af943064a (3 scala sources)
+2024.10.03 13:46:59 INFO  time: compiled labb5_0af943064a in 0.4s
+2024.10.03 13:48:20 INFO  compiling labb5_0af943064a (3 scala sources)
+2024.10.03 13:48:20 INFO  time: compiled labb5_0af943064a in 0.14s
+2024.10.03 13:49:03 INFO  compiling labb5_0af943064a (3 scala sources)
+2024.10.03 13:49:03 INFO  time: compiled labb5_0af943064a in 0.79s
+2024.10.03 13:51:05 INFO  compiling labb5_0af943064a (1 scala source)
+2024.10.03 13:51:05 INFO  time: compiled labb5_0af943064a in 0.43s
+2024.10.03 13:51:42 INFO  compiling labb5_0af943064a (1 scala source)
+2024.10.03 13:51:42 INFO  time: compiled labb5_0af943064a in 0.3s
+2024.10.03 13:53:50 INFO  compiling labb5_0af943064a (1 scala source)
+2024.10.03 13:53:50 INFO  time: compiled labb5_0af943064a in 0.3s
+Oct 03, 2024 1:55:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3732
+2024.10.03 13:56:07 INFO  compiling labb5_0af943064a (1 scala source)
+2024.10.03 13:56:07 INFO  time: compiled labb5_0af943064a in 0.41s
+Oct 03, 2024 1:59:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4094
+2024.10.03 13:59:48 INFO  compiling labb5_0af943064a (1 scala source)
+2024.10.03 13:59:48 INFO  time: compiled labb5_0af943064a in 0.47s
+2024.10.03 13:59:54 INFO  compiling labb5_0af943064a (1 scala source)
+2024.10.03 13:59:54 INFO  time: compiled labb5_0af943064a in 0.37s
+2024.10.03 14:00:13 INFO  compiling labb5_0af943064a (1 scala source)
+2024.10.03 14:00:13 INFO  time: compiled labb5_0af943064a in 0.3s
+2024.10.03 14:02:08 INFO  compiling labb5_0af943064a (1 scala source)
+2024.10.03 14:02:08 INFO  time: compiled labb5_0af943064a in 0.15s
+2024.10.03 14:02:12 INFO  compiling labb5_0af943064a (1 scala source)
+2024.10.03 14:02:12 INFO  time: compiled labb5_0af943064a in 0.29s
+2024.10.03 14:03:34 INFO  compiling labb5_0af943064a (1 scala source)
+2024.10.03 14:03:34 INFO  time: compiled labb5_0af943064a in 0.25s
+2024.10.03 14:06:26 INFO  Shutting down server
+2024.10.03 14:06:26 INFO  shutting down Metals
+2024.10.03 14:06:26 INFO  Shut down connection with build server.
+2024.10.03 14:06:26 INFO  Exiting server
+2024.10.03 14:07:14 INFO  Started: Metals version 1.3.5 in folders 'C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5' for client Visual Studio Code 1.93.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@42fd8e48]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@70ac06d2]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@42fd8e48]
+2024.10.03 14:07:14 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.10.03 14:07:16 INFO  no build target found for C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\Mole.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.03 14:07:16 INFO  no build target found for C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\Mole.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.03 14:07:17 INFO  Attempting to connect to the build server...
+2024.10.03 14:07:17 INFO  Running BSP server List(C:\Users\teo\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\.scala-build\ide-envs.json, C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5)
+2024.10.03 14:07:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\.metals\bsp.trace.json or C:\Users\teo\AppData\Local\scalameta\metals\cache\bsp.trace.json
+Oct 03, 2024 2:07:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+Oct 03, 2024 2:07:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+2024.10.03 14:07:18 INFO  no build target found for C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\Mole.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Oct 03, 2024 2:07:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+2024.10.03 14:07:18 INFO  no build target found for C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\Mole.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Oct 03, 2024 2:07:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+2024.10.03 14:07:18 INFO  time: Connected to build server in 1.3s
+2024.10.03 14:07:18 INFO  Connected to Build server: scala-cli v1.5.0
+2024.10.03 14:07:18 INFO  running doctor check
+2024.10.03 14:07:18 INFO  java targets: labb5_0af943064a-test, labb5_0af943064a
+2024.10.03 14:07:20 INFO  Cancelling compilation on scala-cli server
+2024.10.03 14:07:20 INFO  compiling labb5_0af943064a (3 scala sources)
+2024.10.03 14:07:21 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.10.03 14:07:20 INFO  time: compiled labb5_0af943064a in 0.56s
+2024.10.03 14:07:21 INFO  time: Imported build in 0.69s
+2024.10.03 14:07:21 INFO  running doctor check
+2024.10.03 14:07:21 INFO  java targets: labb5_0af943064a-test, labb5_0af943064a
+2024.10.03 14:07:21 INFO  time: indexed workspace in 3.46s
+Oct 03, 2024 2:07:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23
+2024.10.03 14:07:23 INFO  time: indexed workspace in 2.05s
+2024.10.03 14:07:57 INFO  no build target found for C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\BlockWindow.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.03 14:07:57 INFO  no build target found for C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\BlockWindow.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.03 14:07:57 WARN  Could not find semantic tokens for: file:///C:/Users/teo/Documents/scalafilerwin/Teos-repo/labb5/BlockWindow.scala
+2024.10.03 14:07:57 INFO  running doctor check
+2024.10.03 14:07:57 INFO  java targets: labb5_0af943064a-test, labb5_0af943064a
+2024.10.03 14:07:57 INFO  compiling labb5_0af943064a (1 scala source)
+2024.10.03 14:07:57 INFO  time: compiled labb5_0af943064a in 0.13s
+2024.10.03 14:07:59 WARN  Could not find semantic tokens for: file:///C:/Users/teo/Documents/scalafilerwin/Teos-repo/labb5/BlockWindow.scala
+2024.10.03 14:07:59 INFO  time: indexed workspace in 2.2s
+2024.10.03 14:08:00 WARN  Could not find semantic tokens for: file:///C:/Users/teo/Documents/scalafilerwin/Teos-repo/labb5/BlockWindow.scala
+2024.10.03 14:08:02 WARN  Could not find semantic tokens for: file:///C:/Users/teo/Documents/scalafilerwin/Teos-repo/labb5/BlockWindow.scala
+2024.10.03 14:08:03 WARN  Could not find semantic tokens for: file:///C:/Users/teo/Documents/scalafilerwin/Teos-repo/labb5/BlockWindow.scala
+2024.10.03 14:08:04 WARN  Could not find semantic tokens for: file:///C:/Users/teo/Documents/scalafilerwin/Teos-repo/labb5/BlockWindow.scala
+2024.10.03 14:08:04 WARN  Could not find semantic tokens for: file:///C:/Users/teo/Documents/scalafilerwin/Teos-repo/labb5/BlockWindow.scala
+2024.10.03 14:08:05 WARN  Could not find semantic tokens for: file:///C:/Users/teo/Documents/scalafilerwin/Teos-repo/labb5/BlockWindow.scala
+2024.10.03 14:08:05 WARN  Could not find semantic tokens for: file:///C:/Users/teo/Documents/scalafilerwin/Teos-repo/labb5/BlockWindow.scala
+Oct 03, 2024 2:08:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 109
+2024.10.03 14:08:44 INFO  BSP server: [warn] .\BlockWindow.scala:1:1
+2024.10.03 14:08:44 INFO  BSP server: [warn] Using directives detected in multiple files. It is recommended to keep them centralized in the C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\project.scala file.
+2024.10.03 14:08:44 INFO  BSP server: [warn] //>using dep se.lth.cs::introprog::1.4.0
+2024.10.03 14:08:44 INFO  BSP server: [warn] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024.10.03 14:08:44 INFO  BSP server: [warn] .\Mole.scala:1:1
+2024.10.03 14:08:44 INFO  BSP server: [warn] Using directives detected in multiple files. It is recommended to keep them centralized in the C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\project.scala file.
+2024.10.03 14:08:44 INFO  BSP server: [warn] //>using dep se.lth.cs::introprog::1.4.0
+2024.10.03 14:08:44 INFO  BSP server: [warn] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024.10.03 14:08:45 INFO  compiling labb5_0af943064a (1 scala source)
+2024.10.03 14:08:45 INFO  time: compiled labb5_0af943064a in 97ms
+Oct 03, 2024 2:09:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 380
+Oct 03, 2024 2:12:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1144
+Oct 03, 2024 2:13:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1349
+Oct 03, 2024 2:14:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1563
+Oct 03, 2024 2:15:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2015
+Oct 03, 2024 2:16:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2199
+2024.10.03 14:16:20 INFO  BSP server: [warn] .\BlockWindow.scala:1:1
+2024.10.03 14:16:20 INFO  BSP server: [warn] Using directives detected in multiple files. It is recommended to keep them centralized in the C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\project.scala file.
+2024.10.03 14:16:20 INFO  BSP server: [warn] //>using dep se.lth.cs::introprog::1.4.0
+2024.10.03 14:16:20 INFO  BSP server: [warn] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024.10.03 14:16:20 INFO  BSP server: [warn] .\Mole.scala:1:1
+2024.10.03 14:16:20 INFO  BSP server: [warn] Using directives detected in multiple files. It is recommended to keep them centralized in the C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\project.scala file.
+2024.10.03 14:16:20 INFO  BSP server: [warn] //>using dep se.lth.cs::introprog::1.4.0
+2024.10.03 14:16:20 INFO  BSP server: [warn] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024.10.03 14:16:20 INFO  compiling labb5_0af943064a (1 scala source)
+2024.10.03 14:16:20 INFO  time: compiled labb5_0af943064a in 0.12s
+2024.10.03 14:16:29 INFO  BSP server: [warn] .\BlockWindow.scala:1:1
+2024.10.03 14:16:29 INFO  BSP server: [warn] Using directives detected in multiple files. It is recommended to keep them centralized in the C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\project.scala file.
+2024.10.03 14:16:29 INFO  BSP server: [warn] //>using dep se.lth.cs::introprog::1.4.0
+2024.10.03 14:16:29 INFO  BSP server: [warn] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024.10.03 14:16:29 INFO  BSP server: [warn] .\Mole.scala:1:1
+2024.10.03 14:16:29 INFO  BSP server: [warn] Using directives detected in multiple files. It is recommended to keep them centralized in the C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\project.scala file.
+2024.10.03 14:16:29 INFO  BSP server: [warn] //>using dep se.lth.cs::introprog::1.4.0
+2024.10.03 14:16:29 INFO  BSP server: [warn] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024.10.03 14:16:30 INFO  compiling labb5_0af943064a (1 scala source)
+2024.10.03 14:16:30 INFO  time: compiled labb5_0af943064a in 92ms
+Oct 03, 2024 2:17:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2331
+2024.10.03 14:17:13 INFO  BSP server: [warn] .\BlockWindow.scala:1:1
+2024.10.03 14:17:13 INFO  BSP server: [warn] Using directives detected in multiple files. It is recommended to keep them centralized in the C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\project.scala file.
+2024.10.03 14:17:13 INFO  BSP server: [warn] //>using dep se.lth.cs::introprog::1.4.0
+2024.10.03 14:17:13 INFO  BSP server: [warn] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024.10.03 14:17:13 INFO  BSP server: [warn] .\Mole.scala:1:1
+2024.10.03 14:17:13 INFO  BSP server: [warn] Using directives detected in multiple files. It is recommended to keep them centralized in the C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\project.scala file.
+2024.10.03 14:17:13 INFO  BSP server: [warn] //>using dep se.lth.cs::introprog::1.4.0
+2024.10.03 14:17:13 INFO  BSP server: [warn] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024.10.03 14:17:14 INFO  compiling labb5_0af943064a (1 scala source)
+2024.10.03 14:17:14 INFO  time: compiled labb5_0af943064a in 0.11s
+Oct 03, 2024 2:18:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2699
+Oct 03, 2024 2:18:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2714
+Oct 03, 2024 2:18:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2761
+Oct 03, 2024 2:20:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3379
+Oct 03, 2024 2:21:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3616
+Oct 03, 2024 2:22:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4076
+Oct 03, 2024 2:25:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4719
+Oct 03, 2024 2:25:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5026
+Oct 03, 2024 2:25:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5027
+2024.10.03 14:26:42 INFO  BSP server: [warn] .\BlockWindow.scala:1:1
+2024.10.03 14:26:42 INFO  BSP server: [warn] Using directives detected in multiple files. It is recommended to keep them centralized in the C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\project.scala file.
+2024.10.03 14:26:42 INFO  BSP server: [warn] //>using dep se.lth.cs::introprog::1.4.0
+2024.10.03 14:26:42 INFO  BSP server: [warn] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024.10.03 14:26:42 INFO  BSP server: [warn] .\Mole.scala:1:1
+2024.10.03 14:26:42 INFO  BSP server: [warn] Using directives detected in multiple files. It is recommended to keep them centralized in the C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\project.scala file.
+2024.10.03 14:26:42 INFO  BSP server: [warn] //>using dep se.lth.cs::introprog::1.4.0
+2024.10.03 14:26:42 INFO  BSP server: [warn] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024.10.03 14:26:42 INFO  compiling labb5_0af943064a (1 scala source)
+2024.10.03 14:26:42 INFO  time: compiled labb5_0af943064a in 0.6s
+Oct 03, 2024 2:28:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5361
+2024.10.03 14:29:15 INFO  BSP server: [warn] .\BlockWindow.scala:1:1
+2024.10.03 14:29:15 INFO  BSP server: [warn] Using directives detected in multiple files. It is recommended to keep them centralized in the C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\project.scala file.
+2024.10.03 14:29:15 INFO  BSP server: [warn] //>using dep se.lth.cs::introprog::1.4.0
+2024.10.03 14:29:15 INFO  BSP server: [warn] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024.10.03 14:29:15 INFO  BSP server: [warn] .\Mole.scala:1:1
+2024.10.03 14:29:15 INFO  BSP server: [warn] Using directives detected in multiple files. It is recommended to keep them centralized in the C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\project.scala file.
+2024.10.03 14:29:15 INFO  BSP server: [warn] //>using dep se.lth.cs::introprog::1.4.0
+2024.10.03 14:29:15 INFO  BSP server: [warn] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024.10.03 14:29:15 INFO  compiling labb5_0af943064a (1 scala source)
+2024.10.03 14:29:15 INFO  time: compiled labb5_0af943064a in 0.5s
+2024.10.03 14:29:26 INFO  Shutting down server
+2024.10.03 14:29:26 INFO  shutting down Metals
+2024.10.03 14:29:26 INFO  BSP server: Oct 03, 2024 2:29:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2024.10.03 14:29:26 INFO  BSP server: WARNING: Notification threw an exception: {
+2024.10.03 14:29:26 INFO  BSP server:   "jsonrpc": "2.0",
+2024.10.03 14:29:26 INFO  BSP server:   "method": "build/exit",
+2024.10.03 14:29:26 INFO  BSP server:   "params": null
+2024.10.03 14:29:26 INFO  BSP server: }
+2024.10.03 14:29:26 INFO  BSP server: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+2024.10.03 14:29:26 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+2024.10.03 14:29:26 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+2024.10.03 14:29:26 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+2024.10.03 14:29:26 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+2024.10.03 14:29:26 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+2024.10.03 14:29:26 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+2024.10.03 14:29:26 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+2024.10.03 14:29:26 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+2024.10.03 14:29:26 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2024.10.03 14:29:26 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+2024.10.03 14:29:26 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2024.10.03 14:29:26 INFO  BSP server: 	at java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+2024.10.03 14:29:26 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:775)
+2024.10.03 14:29:26 INFO  BSP server: 	at com.oracle.svm.core.windows.WindowsPlatformThreads.osThreadStartRoutine(WindowsPlatformThreads.java:178)
+2024.10.03 14:29:26 INFO  BSP server: Caused by: java.lang.reflect.InvocationTargetException
+2024.10.03 14:29:26 INFO  BSP server: 	at java.base@17.0.6/java.lang.reflect.Method.invoke(Method.java:568)
+2024.10.03 14:29:26 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+2024.10.03 14:29:26 INFO  BSP server: 	... 13 more
+2024.10.03 14:29:26 INFO  BSP server: Caused by: java.lang.RuntimeException: BSP server not initialized yet
+2024.10.03 14:29:26 INFO  BSP server: 	at scala.sys.package$.error(package.scala:27)
+2024.10.03 14:29:26 INFO  BSP server: 	at scala.build.bsp.BloopSession$Reference.get(BloopSession.scala:70)
+2024.10.03 14:29:26 INFO  BSP server: 	at scala.build.bsp.BspImpl.$anonfun$11(BspImpl.scala:474)
+2024.10.03 14:29:26 INFO  BSP server: 	at scala.build.bsp.BuildServerProxy.onBuildExit(BuildServerProxy.scala:29)
+2024.10.03 14:29:26 INFO  BSP server: 	... 15 more
+2024.10.03 14:29:26 INFO  BSP server: 
+2024.10.03 14:29:26 INFO  Shut down connection with build server.
+2024.10.03 14:29:26 INFO  Cancelling compilation on scala-cli server
+2024.10.03 14:29:26 INFO  Exiting server
+2024.10.03 14:32:28 INFO  Started: Metals version 1.3.5 in folders 'C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5' for client Visual Studio Code 1.93.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@7d16284b]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@1f5704a2]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@7d16284b]
+2024.10.03 14:32:31 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.10.03 14:32:31 INFO  no build target found for C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\BlockWindow.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.03 14:32:32 INFO  Attempting to connect to the build server...
+2024.10.03 14:32:32 INFO  Running BSP server List(C:\Users\teo\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\.scala-build\ide-envs.json, C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5)
+2024.10.03 14:32:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\.metals\bsp.trace.json or C:\Users\teo\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.03 14:32:33 INFO  time: Connected to build server in 1.29s
+2024.10.03 14:32:33 INFO  Connected to Build server: scala-cli v1.5.0
+2024.10.03 14:32:33 INFO  running doctor check
+2024.10.03 14:32:33 INFO  java targets: labb5_0af943064a-test, labb5_0af943064a
+2024.10.03 14:32:33 INFO  compiling labb5_0af943064a (2 scala sources)
+2024.10.03 14:32:33 INFO  time: compiled labb5_0af943064a in 0.64s
+2024.10.03 14:32:33 INFO  compiling labb5_0af943064a (2 scala sources)
+2024.10.03 14:32:35 INFO  time: compiled labb5_0af943064a in 0.49s
+2024.10.03 14:32:37 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.10.03 14:32:37 INFO  time: indexed workspace in 4.46s
+2024.10.03 14:32:38 INFO  compiling labb5_0af943064a (2 scala sources)
+2024.10.03 14:32:38 INFO  time: compiled labb5_0af943064a in 0.41s
+2024.10.03 14:32:38 INFO  compiling labb5_0af943064a (2 scala sources)
+2024.10.03 14:32:39 INFO  time: compiled labb5_0af943064a in 0.37s
+2024.10.03 14:33:53 INFO  compiling labb5_0af943064a (2 scala sources)
+2024.10.03 14:33:53 INFO  time: compiled labb5_0af943064a in 0.7s
+2024.10.03 14:34:23 INFO  Shutting down server
+2024.10.03 14:34:23 INFO  shutting down Metals
+2024.10.03 14:34:23 INFO  Shut down connection with build server.
+2024.10.03 14:34:23 INFO  Exiting server
+2024.10.03 14:35:10 INFO  Started: Metals version 1.3.5 in folders 'C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5' for client Visual Studio Code 1.93.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@48d93549]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@12bbdf1]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@48d93549]
+2024.10.03 14:35:10 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.10.03 14:35:12 INFO  no build target found for C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\BlockWindow.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.03 14:35:12 INFO  Attempting to connect to the build server...
+2024.10.03 14:35:12 INFO  Running BSP server List(C:\Users\teo\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\.scala-build\ide-envs.json, C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5)
+2024.10.03 14:35:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\teo\Documents\scalafilerwin\Teos-repo\labb5\.metals\bsp.trace.json or C:\Users\teo\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.10.03 14:35:13 INFO  time: Connected to build server in 1.25s
+2024.10.03 14:35:13 INFO  Connected to Build server: scala-cli v1.5.0
+2024.10.03 14:35:13 INFO  running doctor check
+2024.10.03 14:35:13 INFO  java targets: labb5_0af943064a-test, labb5_0af943064a
+2024.10.03 14:35:14 INFO  compiling labb5_0af943064a (2 scala sources)
+2024.10.03 14:35:14 INFO  time: compiled labb5_0af943064a in 0.67s
+2024.10.03 14:35:14 INFO  compiling labb5_0af943064a (2 scala sources)
+2024.10.03 14:35:15 INFO  time: compiled labb5_0af943064a in 0.46s
+2024.10.03 14:35:17 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.10.03 14:35:17 INFO  time: indexed workspace in 4.45s
+2024.10.03 14:35:18 INFO  compiling labb5_0af943064a (2 scala sources)
+2024.10.03 14:35:18 INFO  time: compiled labb5_0af943064a in 0.36s
+2024.10.03 14:35:18 INFO  compiling labb5_0af943064a (2 scala sources)
+2024.10.03 14:35:20 INFO  time: compiled labb5_0af943064a in 0.35s
+2024.10.03 14:35:40 INFO  Shutting down server
+2024.10.03 14:35:40 INFO  shutting down Metals
+2024.10.03 14:35:40 INFO  Shut down connection with build server.
+2024.10.03 14:35:40 INFO  BSP server: Oct 03, 2024 2:35:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2024.10.03 14:35:40 INFO  Exiting server
